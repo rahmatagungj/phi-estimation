@@ -27,6 +27,5 @@ def estimate_phi(n):
         point_total += 1
     return 4 * point_circle / point_total
 
-
 print(estimate_phi(1000000)) # 3.14066
 print(estimate_phi_iteration(1000000)) # 14.392726722864989
